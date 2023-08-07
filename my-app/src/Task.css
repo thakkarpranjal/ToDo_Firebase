@@ -1,0 +1,79 @@
+.dateandtime.active {
+    display: block;
+}
+
+.dateandtime.inactive {
+    display: none;
+}
+
+.modalOpen>p {
+    margin-top: 10px;
+}
+
+.allTasks>p {
+    width: 200px;
+    background-color: aliceblue;
+    height: 200px;
+    border-radius: 2px;
+    font-size: large;
+}
+.buttons {
+    display: contents;
+}
+
+.deleteTask {
+    top: 5px;
+    position: relative;
+}
+
+.taskHere {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+}
+
+.allTasks {
+    margin: 1%;
+}
+
+.taskPage>button>span {
+    position: relative;
+    right: 2px;
+}
+
+.task1 {
+    width: 250px;
+    display: flex;
+    background-color: lavender;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    padding: 3%;
+    margin: 10px;
+    height: 100%;}
+
+.taskTitle {
+    width: 100%;
+    text-align: start;
+    font-size: 15px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+.editTask{
+    width: 50%;
+    position: relative;
+    top: 6px;
+}
+:where(.css-dev-only-do-not-override-txh9fw).ant-btn-primary {
+    width: 110px;
+    height: 50px;
+}
+.taskDate {
+    /* text-align: end; */
+    font-size: 15px;
+}
+:where(.css-dev-only-do-not-override-txh9fw).ant-btn-default {
+    width: 110px;
+    height: 50px;
+}
+p {
+    font-size: initial;
+}

@@ -1,0 +1,10 @@
+.user{
+    width: 30%;
+    text-align: center;
+    height: 70%;
+    padding-top: 10%;
+}
+
+div#root {
+    text-align: -webkit-center;
+}

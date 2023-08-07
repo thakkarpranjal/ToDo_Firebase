@@ -1,0 +1,1 @@
+ <DatePicker placeholder='Set date and Time' showTime onChange={onPick} style={{ marginTop: "10px" }} value={date1}
